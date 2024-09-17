@@ -1,0 +1,36 @@
+.discount-manager form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.discount-manager form div {
+  margin-bottom: 10px;
+}
+
+.discount-manager form label {
+  font-weight: bold;
+}
+
+.discount-manager form input,
+.discount-manager form select {
+  padding: 5px;
+  font-size: 1em;
+}
+
+.product-list {
+  margin-top: 20px;
+}
+
+.product-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
